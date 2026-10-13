@@ -43,7 +43,7 @@
 <main>
   <header>
     <h1>Política de Privacidade do Equilibra</h1>
-    <p class="meta">Vigente a partir de 7 de outubro de 2026</p>
+    <p class="meta">Vigente a partir de 13 de outubro de 2026</p>
   </header>
 
   <section class="summary" aria-label="Resumo">
@@ -53,6 +53,7 @@
       <li>O app <strong>não tem conta, não tem servidor</strong> e não envia seus registros para ninguém, nem para nós.</li>
       <li>Não usamos analytics, rastreamento nem anúncios.</li>
       <li>A única comunicação pela internet é com a <strong>Google Play</strong>, para a assinatura Premium. Nenhum dado de saúde vai nessa comunicação.</li>
+      <li>Se você ligar a leitura do <strong>Health Connect</strong> (opcional, vem desligada), o app lê peso e passos do seu aparelho. Ele não grava nada lá e o que é lido também fica só no aparelho.</li>
       <li>Você pode apagar tudo a qualquer momento em <strong>Perfil › Apagar todos os dados</strong>.</li>
     </ul>
   </section>
@@ -64,16 +65,19 @@
   <h2>2. Quais informações o app usa</h2>
   <p>Você decide o que registrar. Dependendo do que usar, o app guarda:</p>
   <ul>
-    <li><strong>Perfil:</strong> nome ou apelido, data de nascimento, altura e peso inicial (todos opcionais).</li>
+    <li><strong>Perfil:</strong> nome ou apelido, data de nascimento, altura, peso inicial e meta de peso (todos opcionais).</li>
     <li><strong>Tratamento:</strong> medicamento, dose, frequência, dia e horário das aplicações, data de início.</li>
     <li><strong>Aplicações:</strong> data e hora, dose, local da aplicação e observações.</li>
     <li><strong>Estoque do medicamento:</strong> quantidade de aplicações, data de compra e validade.</li>
-    <li><strong>Hábitos e bem-estar:</strong> água, refeições (nome, calorias e nutrientes), metas, peso, sintomas (tipo e intensidade), check-in diário (fome, energia, vontade de comer) e anotações.</li>
+    <li><strong>Hábitos e bem-estar:</strong> água, refeições (nome, calorias e nutrientes), metas, peso, medidas corporais, sintomas (tipo e intensidade), check-in diário (fome, energia, vontade de comer) e anotações.</li>
+    <li><strong>Fotos de progresso (opcional):</strong> as fotos que você tirar ou escolher, com a data. Uma cópia fica guardada na área privada do app, no seu aparelho; ela não aparece na galeria do aparelho.</li>
+    <li><strong>Health Connect (opcional, só Android):</strong> se você ligar essa opção, as pesagens e o total de passos do dia que outros apps ou aparelhos gravaram no Health Connect do seu aparelho. Veja a seção 6.</li>
     <li><strong>Configurações:</strong> lembretes, tema e preferências do app.</li>
     <li><strong>Situação da assinatura:</strong> se o Premium está ativo e qual plano, para o app funcionar sem internet.</li>
   </ul>
   <p>Muitas dessas informações são <strong>dados pessoais sensíveis referentes à saúde</strong> (art. 5º, II, da LGPD). Por isso elas nunca saem do seu aparelho por iniciativa do app.</p>
-  <p>O app <strong>não</strong> acessa sua localização, contatos, câmera, fotos, microfone, identificadores de publicidade ou outros apps.</p>
+  <p><strong>Câmera e fotos:</strong> a câmera só é usada quando você toca em “Tirar foto”, e o app pede a permissão nesse momento; você pode negar e continuar usando todo o resto. Para escolher uma foto já existente, o app usa o seletor de fotos do sistema e recebe apenas a imagem que você escolher, sem acesso ao restante da sua galeria. As fotos não são enviadas para nenhum servidor e são apagadas quando você as exclui, apaga todos os dados ou desinstala o app.</p>
+  <p>O app <strong>não</strong> acessa sua localização, contatos, microfone ou identificadores de publicidade. Ele só lê dados de outro app em um caso: o Health Connect, e apenas se você ligar essa opção (seção 6).</p>
 
   <h2>3. Onde as informações ficam</h2>
   <p>Todas as informações acima são gravadas apenas no armazenamento interno do app, no seu aparelho. O Equilibra não tem cadastro, login, servidor ou sincronização com a nuvem. <strong>Nós não temos acesso aos seus registros</strong> e não conseguimos vê-los, recuperá-los ou corrigi-los por você.</p>
@@ -86,37 +90,53 @@
   <h2>5. Lembretes</h2>
   <p>Os lembretes (aplicação, água, check-in etc.) são notificações agendadas pelo próprio sistema do aparelho. Elas não passam por nenhum servidor nosso. Você pode desativá-las no app ou nas configurações do Android.</p>
 
-  <h2>6. Relatório em PDF</h2>
+  <h2>6. Health Connect (opcional)</h2>
+  <p>No Android, você pode ligar em <strong>Perfil › Health Connect</strong> a leitura de dados do Health Connect, o serviço do Android que reúne dados de saúde no seu aparelho. A opção vem <strong>desligada</strong> e só passa a valer depois que você a liga e concede a permissão na janela do próprio Health Connect.</p>
+  <ul>
+    <li><strong>O que é lido:</strong> apenas <strong>peso</strong> (pesagens dos últimos 30 dias) e <strong>passos</strong> (total do dia atual). Nenhum outro tipo de dado é pedido ou lido.</li>
+    <li><strong>Para que serve:</strong> a pesagem mais recente de cada dia vira um registro de peso no seu histórico, marcado como vindo do Health Connect. Num dia em que você mesmo registrou o peso, vale o seu registro e nada é importado. O total de passos de hoje é mostrado na tela inicial; ele é lido na hora e não é guardado.</li>
+    <li><strong>Somente leitura:</strong> o Equilibra não grava, altera nem apaga nada no Health Connect.</li>
+    <li><strong>Onde fica:</strong> o que é lido fica somente no armazenamento do app no seu aparelho, como os demais registros. Não é enviado a nenhum servidor, não é compartilhado, vendido ou transferido a terceiros e não é usado para publicidade.</li>
+    <li><strong>Quando é lido:</strong> só com o app aberto. O app não lê dados em segundo plano.</li>
+    <li><strong>Como desligar:</strong> desligue a opção em Perfil › Health Connect ou retire a permissão no Health Connect (nas configurações do Android). A partir daí nada mais é lido. As pesagens já importadas continuam no seu histórico de peso até você excluí-las, uma a uma ou em Perfil › Apagar todos os dados.</li>
+  </ul>
+  <p>O uso das informações recebidas do Health Connect segue a política de permissões do Health Connect, incluindo os requisitos de <strong>uso limitado</strong>: os dados são usados apenas para o recurso descrito acima, visível para você dentro do app.</p>
+
+  <h2>7. Relatório em PDF e backup</h2>
   <p>O relatório para a consulta é gerado no próprio aparelho. Ele só sai do aparelho se <strong>você</strong> decidir compartilhá-lo (por exemplo, enviando para seu médico). Depois de compartilhado, o arquivo fica sujeito às regras do app ou serviço que você escolheu para enviar.</p>
 
-  <h2>7. Assinatura Premium e Google Play</h2>
+  <p>Em <strong>Perfil › Privacidade</strong> você pode criar um <strong>arquivo de backup</strong> com os seus registros (as fotos de progresso não entram). O arquivo é gerado no aparelho e <strong>você</strong> escolhe onde guardá-lo; nós não o recebemos. Ele não tem senha nem criptografia: quem tiver o arquivo consegue ler os registros, então guarde-o em um lugar de confiança.</p>
+
+  <h2>8. Assinatura Premium e Google Play</h2>
   <p>O Equilibra pode ser usado de graça. Os recursos Premium são vendidos pela <strong>Google Play</strong>. Para mostrar os preços, concluir a compra e confirmar se a assinatura está ativa, o app se comunica com a Google Play. Nessa comunicação <strong>nenhum dado de saúde é enviado</strong>.</p>
   <p>Os dados de pagamento (cartão, Pix, boleto etc.) e o histórico de compras são coletados e tratados diretamente pelo Google, de acordo com a <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a> e os <a href="https://play.google.com/about/play-terms/">Termos de Serviço da Google Play</a>. Nós não recebemos os dados do seu cartão. Pela Google Play Console, recebemos apenas as informações que o Google fornece a desenvolvedores sobre os pedidos (por exemplo, número do pedido, produto, valor e país), usadas para gestão financeira e atendimento de reembolsos.</p>
 
-  <h2>8. Compartilhamento</h2>
+  <h2>9. Compartilhamento</h2>
   <p>Nós não vendemos, alugamos nem compartilhamos seus dados com ninguém. O app não contém anúncios nem ferramentas de análise de uso de terceiros.</p>
 
-  <h2>9. Segurança</h2>
+  <h2>10. Segurança</h2>
   <p>Seus registros ficam no espaço privado do app, protegido pelo sistema Android. Recomendamos manter o bloqueio de tela do aparelho ativado, porque qualquer pessoa com acesso ao aparelho desbloqueado pode abrir o app.</p>
 
-  <h2>10. Seus direitos</h2>
+  <p>Você também pode ligar o <strong>bloqueio do app</strong> em Perfil › Privacidade. A conferência da biometria ou da senha é feita pelo sistema do aparelho: o Equilibra só recebe a resposta "liberado" ou "não liberado" e nunca tem acesso à sua digital, ao seu rosto ou à sua senha.</p>
+
+  <h2>11. Seus direitos</h2>
   <p>A LGPD (art. 18) garante a você, entre outros, os direitos de: confirmar se seus dados são tratados; acessá-los; corrigi-los; pedir anonimização, bloqueio ou eliminação; portabilidade; informação sobre compartilhamento; e revogar o consentimento.</p>
   <p>Como os dados ficam só com você, a maioria desses direitos você exerce diretamente no app:</p>
   <ul>
     <li><strong>Acessar e corrigir:</strong> todos os registros podem ser vistos e editados nas telas do app.</li>
     <li><strong>Eliminar:</strong> exclua cada registro individualmente ou apague tudo em <strong>Perfil › Apagar todos os dados</strong>. Desinstalar o app também remove todos os dados.</li>
-    <li><strong>Portabilidade:</strong> você pode gerar o relatório em PDF e guardá-lo ou compartilhá-lo.</li>
-    <li><strong>Revogar o consentimento:</strong> pare de registrar e apague os dados a qualquer momento.</li>
+    <li><strong>Portabilidade:</strong> você pode gerar o relatório em PDF ou criar um arquivo de backup e guardá-los ou compartilhá-los.</li>
+    <li><strong>Revogar o consentimento:</strong> pare de registrar e apague os dados a qualquer momento. Para o Health Connect, desligue a opção no app ou retire a permissão no Health Connect.</li>
   </ul>
   <p>Para dúvidas, reclamações ou pedidos relacionados à privacidade, escreva para <strong><a href="mailto:837code@gmail.com">837code@gmail.com</a></strong>. Você também pode procurar a Autoridade Nacional de Proteção de Dados (ANPD). Sobre dados de compra mantidos pelo Google, use os canais do próprio Google.</p>
 
-  <h2>11. Crianças e adolescentes</h2>
+  <h2>12. Crianças e adolescentes</h2>
   <p>O Equilibra é destinado a pessoas com <strong>18 anos ou mais</strong> e não é direcionado a crianças nem adolescentes.</p>
 
-  <h2>12. Aviso importante</h2>
+  <h2>13. Aviso importante</h2>
   <p>O Equilibra é um diário pessoal. Ele não faz diagnósticos, não indica tratamentos, não sugere nem altera doses e não substitui o acompanhamento com seu médico ou profissional de saúde.</p>
 
-  <h2>13. Mudanças nesta política</h2>
+  <h2>14. Mudanças nesta política</h2>
   <p>Podemos atualizar esta política, por exemplo se o app ganhar novos recursos (como backup na nuvem). Se uma mudança alterar a forma como seus dados são tratados, avisaremos no app antes de ela valer e, quando necessário, pediremos um novo consentimento. A data de vigência no topo indica a versão atual.</p>
 
   <footer>
